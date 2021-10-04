@@ -1,0 +1,20 @@
+                        Karatsuba Multiplication
+
+Example: 5678*1234
+a = 56, b = 78
+c = 12, d = 34
+Step 1: a*c = 672 (1)
+Step 2: b*d = 2652 (2)
+Step 3: (a+b)*(c+d) = 134*46 = 6164 (3)
+Step 4: (3) - (2) - (1) = 2840
+Step 5: 6720000 + 2562 + 284000 = 7006652 = 1234*5678
+
+A Recursive Algorithm
+Write  x = 10^(n/2)*a + b and y = 10^(n/2)*c + d
+where a,b,c,d are (n/2) - digit numbers
+Then x.y = (10^(n/2)*a + b)*(10^(n/2)*c + d)
+         = 10^n * a*c + 10^(n/2)(ad+bc) bd (*)
+Idea: Recursively compute ac, ad, bc, bd then compute (*) in the straight forward way.
+Example a = 56, b =78, c = 12, d= 34
+
+ 

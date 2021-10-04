@@ -1,0 +1,22 @@
+Asymptotic Notation
+2.1 The Gist
+    Motivation
+    The High-Level Idea
+    Asymptotic Notation in Seven Word
+        suppress constant factors and lower-order terms
+    Four Examples
+
+2.2 Big-O Notation
+    Big-O Notation (English Version)
+    T (n) = O(f (n)) if and only if T (n) is eventually bounded above by a constant multiple of f (n).
+    Pictorial Definition
+    Mathematical Definition
+        Big-O Notation (Mathematical Version)
+        T (n) = O(f (n)) if and only if there exist positive constants c and n0 such that  T (n) <= c · f (n)  for all n >= n0
+    Two Basic Examples
+    Degree-k Polynomials are O(n^k )
+    Degree-k Polynomials Are Not O(n^(k-1))
+    Big-Omega Notation
+    Big-Theta Notation
+    Little-O Notation
+    

@@ -1,0 +1,27 @@
+                                        overview
+SUMMARY: This section is all about graph search and its applications. We'll cover a selection of fundamental primitives for 
+reasoning about graphs. One very cool aspect of this material is that all of the algorithms that we'll cover are insanely fast 
+(linear time with small constants); and, it can be quite subtle to understand why they work! The culmination of these lectures 
+--- computing the strongly connected components of a directed graph with just two passes of depth-first search --- vividly 
+illustrates the point that fast algorithms often require deep insight into the structure of the problem that you're solving. 
+There are also lecture notes for this last topic (available for download underneath the videos). (If you're feeling REALLY 
+motivated, you might read up on Tarjan's earlier algorithm for computing SCCs that needs only a single DFS pass!)
+
+
+THE VIDEOS: We begin with an overview video, which gives some reasons why you should care about graph search, a general strategy
+ for searching a graph without doing any redundant work, and a high-level introduction to the two most important search 
+ strategies, breadth-first search (BFS) and depth-first search (DFS). The second video discusses BFS in more detail, including 
+ applications to computing shortest paths and the connected components of an undirected graph. The third video drills down on 
+ DFS, and shows how to use it to compute a toplogical ordering of a directed acyclic graph (i.e., to sequence tasks in a way 
+ that respects precedence constraints). The fourth and fifth videos cover the description and analysis, respectively, of the 
+ aforementioned algorithm for computing SCCs. A final optional video --- hopefully one of the more fun ones in the course --- 
+ discusses the structure of the Web, and lightly touches on topics like Google's PageRank algorithm and the "six degrees of 
+ separation" phenomenon in social networks.
+
+THE HOMEWORK: The problem set should help you solidify your understanding of graph representations and graph search. The 
+programming assignment asks you to implement the SCC algorithm from the lectures, and report your findings about the SCCs of a 
+large graph. This programming assignment is the most difficult one of the course; as always, I encourage you to use the 
+discussion forums to exchange ideas, tips, and test cases.
+
+
+RELATED READINGS: Algorithms Illuminated (Part 2), Chapters 7 and 8.
